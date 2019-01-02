@@ -1,0 +1,153 @@
+I, [2019-01-02T18:25:59.141133 #10561]  INFO -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5] Started GET "/" for 127.0.0.1 at 2019-01-02 18:25:59 +0100
+I, [2019-01-02T18:25:59.142889 #10561]  INFO -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5] Processing by PagesController#index as HTML
+I, [2019-01-02T18:25:59.199913 #10561]  INFO -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5]   Rendering pages/index.html.erb within layouts/application
+I, [2019-01-02T18:25:59.203284 #10561]  INFO -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5]   Rendered pages/index.html.erb within layouts/application (3.1ms)
+I, [2019-01-02T18:25:59.203663 #10561]  INFO -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5] Completed 500 Internal Server Error in 61ms
+F, [2019-01-02T18:25:59.205422 #10561] FATAL -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5]   
+F, [2019-01-02T18:25:59.205520 #10561] FATAL -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5] ActionView::Template::Error (The asset "mac.png" is not present in the asset pipeline.):
+F, [2019-01-02T18:25:59.205887 #10561] FATAL -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5]     40:       <div class="container-fluid">
+[e66970d5-e148-40d7-9ad6-c101e7ff86b5]     41:         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+[e66970d5-e148-40d7-9ad6-c101e7ff86b5]     42:           <div class="col-lg-6 mx-auto ">
+[e66970d5-e148-40d7-9ad6-c101e7ff86b5]     43: 		    <%= image_tag("mac.png",  class:"img-fluid mb-auto ")%>
+[e66970d5-e148-40d7-9ad6-c101e7ff86b5]     44:           </div>
+[e66970d5-e148-40d7-9ad6-c101e7ff86b5]     45: 		  <div class="col-lg-6 mx-auto pb-5 pr-6">
+[e66970d5-e148-40d7-9ad6-c101e7ff86b5]     46: 			<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+F, [2019-01-02T18:25:59.206006 #10561] FATAL -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5]   
+F, [2019-01-02T18:25:59.206142 #10561] FATAL -- : [e66970d5-e148-40d7-9ad6-c101e7ff86b5] app/views/pages/index.html.erb:43:in `_app_views_pages_index_html_erb___638921183494022143_47185527423520'
+I, [2019-01-02T18:26:00.310224 #10561]  INFO -- : [d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] Started GET "/favicon.ico" for 127.0.0.1 at 2019-01-02 18:26:00 +0100
+F, [2019-01-02T18:26:00.310826 #10561] FATAL -- : [d176e55d-0cd9-44ea-8a6d-2c9785bafd9d]   
+F, [2019-01-02T18:26:00.310876 #10561] FATAL -- : [d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+F, [2019-01-02T18:26:00.310906 #10561] FATAL -- : [d176e55d-0cd9-44ea-8a6d-2c9785bafd9d]   
+F, [2019-01-02T18:26:00.310939 #10561] FATAL -- : [d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] railties (5.2.2) lib/rails/engine.rb:524:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+[d176e55d-0cd9-44ea-8a6d-2c9785bafd9d] puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+I, [2019-01-02T18:26:02.006121 #10561]  INFO -- : [539ed8ad-3f33-4c12-8092-fc4fca554899] Started GET "/" for 127.0.0.1 at 2019-01-02 18:26:02 +0100
+I, [2019-01-02T18:26:02.007354 #10561]  INFO -- : [539ed8ad-3f33-4c12-8092-fc4fca554899] Processing by PagesController#index as HTML
+I, [2019-01-02T18:26:02.009530 #10561]  INFO -- : [539ed8ad-3f33-4c12-8092-fc4fca554899]   Rendering pages/index.html.erb within layouts/application
+I, [2019-01-02T18:26:02.010937 #10561]  INFO -- : [539ed8ad-3f33-4c12-8092-fc4fca554899]   Rendered pages/index.html.erb within layouts/application (1.2ms)
+I, [2019-01-02T18:26:02.011032 #10561]  INFO -- : [539ed8ad-3f33-4c12-8092-fc4fca554899] Completed 500 Internal Server Error in 4ms
+F, [2019-01-02T18:26:02.011471 #10561] FATAL -- : [539ed8ad-3f33-4c12-8092-fc4fca554899]   
+F, [2019-01-02T18:26:02.011496 #10561] FATAL -- : [539ed8ad-3f33-4c12-8092-fc4fca554899] ActionView::Template::Error (The asset "mac.png" is not present in the asset pipeline.):
+F, [2019-01-02T18:26:02.011598 #10561] FATAL -- : [539ed8ad-3f33-4c12-8092-fc4fca554899]     40:       <div class="container-fluid">
+[539ed8ad-3f33-4c12-8092-fc4fca554899]     41:         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+[539ed8ad-3f33-4c12-8092-fc4fca554899]     42:           <div class="col-lg-6 mx-auto ">
+[539ed8ad-3f33-4c12-8092-fc4fca554899]     43: 		    <%= image_tag("mac.png",  class:"img-fluid mb-auto ")%>
+[539ed8ad-3f33-4c12-8092-fc4fca554899]     44:           </div>
+[539ed8ad-3f33-4c12-8092-fc4fca554899]     45: 		  <div class="col-lg-6 mx-auto pb-5 pr-6">
+[539ed8ad-3f33-4c12-8092-fc4fca554899]     46: 			<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+F, [2019-01-02T18:26:02.011618 #10561] FATAL -- : [539ed8ad-3f33-4c12-8092-fc4fca554899]   
+F, [2019-01-02T18:26:02.011635 #10561] FATAL -- : [539ed8ad-3f33-4c12-8092-fc4fca554899] app/views/pages/index.html.erb:43:in `_app_views_pages_index_html_erb___638921183494022143_47185527423520'
+I, [2019-01-02T18:27:06.904787 #10676]  INFO -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f] Started GET "/" for 127.0.0.1 at 2019-01-02 18:27:06 +0100
+I, [2019-01-02T18:27:06.905449 #10676]  INFO -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f] Processing by PagesController#index as HTML
+I, [2019-01-02T18:27:06.912243 #10676]  INFO -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f]   Rendering pages/index.html.erb within layouts/application
+I, [2019-01-02T18:27:06.913333 #10676]  INFO -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f]   Rendered pages/index.html.erb within layouts/application (1.0ms)
+I, [2019-01-02T18:27:06.913446 #10676]  INFO -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f] Completed 500 Internal Server Error in 8ms
+F, [2019-01-02T18:27:06.913939 #10676] FATAL -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f]   
+F, [2019-01-02T18:27:06.913984 #10676] FATAL -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f] ActionView::Template::Error (The asset "mac.png" is not present in the asset pipeline.):
+F, [2019-01-02T18:27:06.914192 #10676] FATAL -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f]     40:       <div class="container-fluid">
+[c3043dc0-a229-463e-8f6e-2cb1f496f28f]     41:         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+[c3043dc0-a229-463e-8f6e-2cb1f496f28f]     42:           <div class="col-lg-6 mx-auto ">
+[c3043dc0-a229-463e-8f6e-2cb1f496f28f]     43: 		    <%= image_tag("mac.png",  class:"img-fluid mb-auto ")%>
+[c3043dc0-a229-463e-8f6e-2cb1f496f28f]     44:           </div>
+[c3043dc0-a229-463e-8f6e-2cb1f496f28f]     45: 		  <div class="col-lg-6 mx-auto pb-5 pr-6">
+[c3043dc0-a229-463e-8f6e-2cb1f496f28f]     46: 			<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+F, [2019-01-02T18:27:06.914223 #10676] FATAL -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f]   
+F, [2019-01-02T18:27:06.914242 #10676] FATAL -- : [c3043dc0-a229-463e-8f6e-2cb1f496f28f] app/views/pages/index.html.erb:43:in `_app_views_pages_index_html_erb__177865364962015948_47392843226660'
+I, [2019-01-02T18:27:08.816447 #10676]  INFO -- : [3dc21574-5251-45a6-b11f-f592b257b3b3] Started GET "/" for 127.0.0.1 at 2019-01-02 18:27:08 +0100
+I, [2019-01-02T18:27:08.816906 #10676]  INFO -- : [3dc21574-5251-45a6-b11f-f592b257b3b3] Processing by PagesController#index as HTML
+I, [2019-01-02T18:27:08.817626 #10676]  INFO -- : [3dc21574-5251-45a6-b11f-f592b257b3b3]   Rendering pages/index.html.erb within layouts/application
+I, [2019-01-02T18:27:08.818163 #10676]  INFO -- : [3dc21574-5251-45a6-b11f-f592b257b3b3]   Rendered pages/index.html.erb within layouts/application (0.5ms)
+I, [2019-01-02T18:27:08.818305 #10676]  INFO -- : [3dc21574-5251-45a6-b11f-f592b257b3b3] Completed 500 Internal Server Error in 1ms
+F, [2019-01-02T18:27:08.819078 #10676] FATAL -- : [3dc21574-5251-45a6-b11f-f592b257b3b3]   
+F, [2019-01-02T18:27:08.819116 #10676] FATAL -- : [3dc21574-5251-45a6-b11f-f592b257b3b3] ActionView::Template::Error (The asset "mac.png" is not present in the asset pipeline.):
+F, [2019-01-02T18:27:08.819275 #10676] FATAL -- : [3dc21574-5251-45a6-b11f-f592b257b3b3]     40:       <div class="container-fluid">
+[3dc21574-5251-45a6-b11f-f592b257b3b3]     41:         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+[3dc21574-5251-45a6-b11f-f592b257b3b3]     42:           <div class="col-lg-6 mx-auto ">
+[3dc21574-5251-45a6-b11f-f592b257b3b3]     43: 		    <%= image_tag("mac.png",  class:"img-fluid mb-auto ")%>
+[3dc21574-5251-45a6-b11f-f592b257b3b3]     44:           </div>
+[3dc21574-5251-45a6-b11f-f592b257b3b3]     45: 		  <div class="col-lg-6 mx-auto pb-5 pr-6">
+[3dc21574-5251-45a6-b11f-f592b257b3b3]     46: 			<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+F, [2019-01-02T18:27:08.819296 #10676] FATAL -- : [3dc21574-5251-45a6-b11f-f592b257b3b3]   
+F, [2019-01-02T18:27:08.819312 #10676] FATAL -- : [3dc21574-5251-45a6-b11f-f592b257b3b3] app/views/pages/index.html.erb:43:in `_app_views_pages_index_html_erb__177865364962015948_47392843226660'
+I, [2019-01-02T18:27:09.035335 #10676]  INFO -- : [428540f2-0128-4121-9e50-2619d70cc78a] Started GET "/" for 127.0.0.1 at 2019-01-02 18:27:09 +0100
+I, [2019-01-02T18:27:09.036648 #10676]  INFO -- : [428540f2-0128-4121-9e50-2619d70cc78a] Processing by PagesController#index as HTML
+I, [2019-01-02T18:27:09.038959 #10676]  INFO -- : [428540f2-0128-4121-9e50-2619d70cc78a]   Rendering pages/index.html.erb within layouts/application
+I, [2019-01-02T18:27:09.040852 #10676]  INFO -- : [428540f2-0128-4121-9e50-2619d70cc78a]   Rendered pages/index.html.erb within layouts/application (1.7ms)
+I, [2019-01-02T18:27:09.041142 #10676]  INFO -- : [428540f2-0128-4121-9e50-2619d70cc78a] Completed 500 Internal Server Error in 4ms
+F, [2019-01-02T18:27:09.043148 #10676] FATAL -- : [428540f2-0128-4121-9e50-2619d70cc78a]   
+F, [2019-01-02T18:27:09.043252 #10676] FATAL -- : [428540f2-0128-4121-9e50-2619d70cc78a] ActionView::Template::Error (The asset "mac.png" is not present in the asset pipeline.):
+F, [2019-01-02T18:27:09.043739 #10676] FATAL -- : [428540f2-0128-4121-9e50-2619d70cc78a]     40:       <div class="container-fluid">
+[428540f2-0128-4121-9e50-2619d70cc78a]     41:         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+[428540f2-0128-4121-9e50-2619d70cc78a]     42:           <div class="col-lg-6 mx-auto ">
+[428540f2-0128-4121-9e50-2619d70cc78a]     43: 		    <%= image_tag("mac.png",  class:"img-fluid mb-auto ")%>
+[428540f2-0128-4121-9e50-2619d70cc78a]     44:           </div>
+[428540f2-0128-4121-9e50-2619d70cc78a]     45: 		  <div class="col-lg-6 mx-auto pb-5 pr-6">
+[428540f2-0128-4121-9e50-2619d70cc78a]     46: 			<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+F, [2019-01-02T18:27:09.043841 #10676] FATAL -- : [428540f2-0128-4121-9e50-2619d70cc78a]   
+F, [2019-01-02T18:27:09.043908 #10676] FATAL -- : [428540f2-0128-4121-9e50-2619d70cc78a] app/views/pages/index.html.erb:43:in `_app_views_pages_index_html_erb__177865364962015948_47392843226660'
+I, [2019-01-02T18:27:09.202312 #10676]  INFO -- : [534779c7-56ff-4452-8676-155c435e5393] Started GET "/" for 127.0.0.1 at 2019-01-02 18:27:09 +0100
+I, [2019-01-02T18:27:09.203121 #10676]  INFO -- : [534779c7-56ff-4452-8676-155c435e5393] Processing by PagesController#index as HTML
+I, [2019-01-02T18:27:09.204806 #10676]  INFO -- : [534779c7-56ff-4452-8676-155c435e5393]   Rendering pages/index.html.erb within layouts/application
+I, [2019-01-02T18:27:09.206167 #10676]  INFO -- : [534779c7-56ff-4452-8676-155c435e5393]   Rendered pages/index.html.erb within layouts/application (1.2ms)
+I, [2019-01-02T18:27:09.206374 #10676]  INFO -- : [534779c7-56ff-4452-8676-155c435e5393] Completed 500 Internal Server Error in 3ms
+F, [2019-01-02T18:27:09.207671 #10676] FATAL -- : [534779c7-56ff-4452-8676-155c435e5393]   
+F, [2019-01-02T18:27:09.207804 #10676] FATAL -- : [534779c7-56ff-4452-8676-155c435e5393] ActionView::Template::Error (The asset "mac.png" is not present in the asset pipeline.):
+F, [2019-01-02T18:27:09.208157 #10676] FATAL -- : [534779c7-56ff-4452-8676-155c435e5393]     40:       <div class="container-fluid">
+[534779c7-56ff-4452-8676-155c435e5393]     41:         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+[534779c7-56ff-4452-8676-155c435e5393]     42:           <div class="col-lg-6 mx-auto ">
+[534779c7-56ff-4452-8676-155c435e5393]     43: 		    <%= image_tag("mac.png",  class:"img-fluid mb-auto ")%>
+[534779c7-56ff-4452-8676-155c435e5393]     44:           </div>
+[534779c7-56ff-4452-8676-155c435e5393]     45: 		  <div class="col-lg-6 mx-auto pb-5 pr-6">
+[534779c7-56ff-4452-8676-155c435e5393]     46: 			<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+F, [2019-01-02T18:27:09.208213 #10676] FATAL -- : [534779c7-56ff-4452-8676-155c435e5393]   
+F, [2019-01-02T18:27:09.208271 #10676] FATAL -- : [534779c7-56ff-4452-8676-155c435e5393] app/views/pages/index.html.erb:43:in `_app_views_pages_index_html_erb__177865364962015948_47392843226660'
+I, [2019-01-02T18:27:09.399293 #10676]  INFO -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3] Started GET "/" for 127.0.0.1 at 2019-01-02 18:27:09 +0100
+I, [2019-01-02T18:27:09.400468 #10676]  INFO -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3] Processing by PagesController#index as HTML
+I, [2019-01-02T18:27:09.402785 #10676]  INFO -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3]   Rendering pages/index.html.erb within layouts/application
+I, [2019-01-02T18:27:09.404795 #10676]  INFO -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3]   Rendered pages/index.html.erb within layouts/application (1.7ms)
+I, [2019-01-02T18:27:09.405426 #10676]  INFO -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3] Completed 500 Internal Server Error in 5ms
+F, [2019-01-02T18:27:09.407604 #10676] FATAL -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3]   
+F, [2019-01-02T18:27:09.407740 #10676] FATAL -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3] ActionView::Template::Error (The asset "mac.png" is not present in the asset pipeline.):
+F, [2019-01-02T18:27:09.408253 #10676] FATAL -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3]     40:       <div class="container-fluid">
+[33af5f1e-08eb-40dc-a107-4d8181d1a7d3]     41:         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+[33af5f1e-08eb-40dc-a107-4d8181d1a7d3]     42:           <div class="col-lg-6 mx-auto ">
+[33af5f1e-08eb-40dc-a107-4d8181d1a7d3]     43: 		    <%= image_tag("mac.png",  class:"img-fluid mb-auto ")%>
+[33af5f1e-08eb-40dc-a107-4d8181d1a7d3]     44:           </div>
+[33af5f1e-08eb-40dc-a107-4d8181d1a7d3]     45: 		  <div class="col-lg-6 mx-auto pb-5 pr-6">
+[33af5f1e-08eb-40dc-a107-4d8181d1a7d3]     46: 			<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+F, [2019-01-02T18:27:09.408344 #10676] FATAL -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3]   
+F, [2019-01-02T18:27:09.408429 #10676] FATAL -- : [33af5f1e-08eb-40dc-a107-4d8181d1a7d3] app/views/pages/index.html.erb:43:in `_app_views_pages_index_html_erb__177865364962015948_47392843226660'
+I, [2019-01-02T18:31:47.716111 #10907]  INFO -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb] Started GET "/" for 127.0.0.1 at 2019-01-02 18:31:47 +0100
+I, [2019-01-02T18:31:47.717919 #10907]  INFO -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb] Processing by PagesController#index as HTML
+I, [2019-01-02T18:31:47.725550 #10907]  INFO -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb]   Rendering pages/index.html.erb within layouts/application
+I, [2019-01-02T18:31:49.839166 #10907]  INFO -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb]   Rendered pages/index.html.erb within layouts/application (2113.5ms)
+I, [2019-01-02T18:31:49.839309 #10907]  INFO -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb] Completed 500 Internal Server Error in 2121ms
+F, [2019-01-02T18:31:49.839924 #10907] FATAL -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb]   
+F, [2019-01-02T18:31:49.839955 #10907] FATAL -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb] ActionView::Template::Error (Unexpected token punc «;», expected punc «,»):
+F, [2019-01-02T18:31:49.840070 #10907] FATAL -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb]     40:       <div class="container-fluid">
+[47c0cbf0-d431-45f2-b5f3-93f24836f4fb]     41:         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+[47c0cbf0-d431-45f2-b5f3-93f24836f4fb]     42:           <div class="col-lg-6 mx-auto ">
+[47c0cbf0-d431-45f2-b5f3-93f24836f4fb]     43: 		    <%= image_tag("mac.png",  class:"img-fluid mb-auto ")%>
+[47c0cbf0-d431-45f2-b5f3-93f24836f4fb]     44:           </div>
+[47c0cbf0-d431-45f2-b5f3-93f24836f4fb]     45: 		  <div class="col-lg-6 mx-auto pb-5 pr-6">
+[47c0cbf0-d431-45f2-b5f3-93f24836f4fb]     46: 			<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+F, [2019-01-02T18:31:49.840090 #10907] FATAL -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb]   
+F, [2019-01-02T18:31:49.840108 #10907] FATAL -- : [47c0cbf0-d431-45f2-b5f3-93f24836f4fb] app/views/pages/index.html.erb:43:in `_app_views_pages_index_html_erb___3257067914686350616_47374729659360'
