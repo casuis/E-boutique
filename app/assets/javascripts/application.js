@@ -14,7 +14,6 @@
 //= require activestorage
 //= require turbolinks
 //= require grayscale.min
-//= require js/bootstrap.bundle.min
 //= require js/fontawesome.min
 //= require js/all.min
 //= require js/regular.min
@@ -23,4 +22,5 @@
 //= require jquery.min
 //= require jquery.slim.min
 //= require jquery.easing.min
+//= require nav 
 //= require_tree .
