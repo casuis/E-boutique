@@ -82,4 +82,5 @@ production:
   <<: *default
   database: E-boutique_production
   username: E-boutique
+  adapter: postgresql
   password: <%= ENV['E-BOUTIQUE_DATABASE_PASSWORD'] %>
