@@ -13,14 +13,12 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require grayscale.min
-//= require js/fontawesome.min
 //= require js/all.min
 //= require js/regular.min
 //= require js/solid.min
 //= require js/v4-shims.min
 //= require jquery.min
 //= require jquery.slim.min
-//= require jquery.easing.min
-//= require nav 
 //= require_tree .
+
+
