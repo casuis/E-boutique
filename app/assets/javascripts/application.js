@@ -18,6 +18,7 @@
 //= require js/solid.min
 //= require js/v4-shims.min
 //= require jquery.min
+//= require grayscale.min
 //= require jquery.slim.min
 //= require_tree .
 
